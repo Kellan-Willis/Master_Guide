@@ -12,7 +12,7 @@ Notes:  Strings are declared by using <String> with < " " >.  Characters are dec
 
 */
 
-public class Variables_StringAndChar{
+public class variables_StringAndChar{
 	public static void main (String [] args){
 		//variables
 		String firstName;
