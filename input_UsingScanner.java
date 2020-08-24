@@ -11,8 +11,6 @@ Notes:  For using the Scanner class for user input:
 3) Ask for the user input through:
 	<  System.out.print("Please enter the purchase amount: " ); >
 	<  "purchasePrice = scanner.nextDouble();  >
-
-
 */
 import java.util.Scanner;
 public class input_UsingScanner{
@@ -24,14 +22,12 @@ public class input_UsingScanner{
 		double stateTaxOnPurchase;
 		double countyTaxOnPurchase;
 		double totalPrice;
-		
 		Scanner scanner = new Scanner (System.in);
-		
 		
 		//input
 		System.out.println ("Please enter the purchase amount: ");
 		purchasePrice = scanner.nextDouble();
-		
+
 		//processing
 		stateTaxRate = .04;
 		countyTaxRate = .02;
